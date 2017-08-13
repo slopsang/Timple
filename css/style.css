@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+html{
+	overflow-y:scroll;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #0b1632;
+	font-size: 13px;
+	font-weight: 400;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+/* Navigation bar style */
+
+.header {
+	min-height: 60px;
+  border-bottom: #efefef solid 1px;
+}
+
+#nav {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#nav ul>li {
+	display: block;
+	float: left;
+	padding: 10px 0px 0px 20px;
+}
+
+#nav a {
+	text-decoration: none;
+	color: #ca4a4b;
+	font-size: 13px;
+}
+
+#nav a:hover {
+	color: #912829;
+}
+
+#nav {
+	float: right;
+  margin-right: 40px;
+}
+
+#logo {
+	float: left;
+  font-size: 15px;
+  text-decoration: none;
+  color: grey;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#logo a {
+	text-decoration: none;
+}
+
+#slide-block {
+  width: 100px;
+  height: 100px;
+  color: yellow;
+}
+
+ul {
+	margin-top: 1em !important;
+}
+
+#signup {
+	padding-top: 5px !important;
+}
