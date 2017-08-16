@@ -1,20 +1,19 @@
-// TIMPLE main.js
+// TIMPLE
+// main.js
 
 // $(document).ready(function() {
 // 	$('#fullpage').fullpage();
 // });
-
-console.log("wtf is wrong?");
 
 $(document).ready(function() {
 	$('#fullpage').fullpage({
 		//Navigation
 		menu: '#menu',
 		lockAnchors: false,
-		anchors:['firstPage', 'secondPage'],
+		anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
 		navigation: false,
 		navigationPosition: 'right',
-		navigationTooltips: ['firstSlide', 'secondSlide'],
+		navigationTooltips: ['firstSlide', 'secondSlide', 'thirdSlide', 'fourthSlide'],
 		showActiveTooltip: false,
 		slidesNavigation: false,
 		slidesNavPosition: 'bottom',
@@ -80,4 +79,6 @@ $(document).ready(function() {
 		afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
 		onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
 	});
+
+	
 });

@@ -6,8 +6,6 @@
  * Copyright (C) 2015 alvarotrigo.com - A project by Alvaro Trigo
  */
 
- console.log("wtf is wrong???????");
-
 (function(global, factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
